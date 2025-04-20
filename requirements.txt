@@ -1,0 +1,16 @@
+# Core
+Django>=5.0,<6.0
+djangorestframework>=3.14.0
+psycopg2-binary>=2.9.9
+
+# JWT Authentication
+djangorestframework-simplejwt>=5.3.1
+
+# CORS Support
+django-cors-headers>=4.3.1
+
+# For managing environment variables (optional but recommended)
+python-decouple>=3.8
+
+# For password validation (default in Django)
+argon2-cffi>=23.1.0

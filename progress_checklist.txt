@@ -1,0 +1,85 @@
+🧩 Full Project Breakdown (Step-by-Step Plan)
+🔹 STEP 1: Project Setup
+✅ Set up virtual environment and install dependencies
+
+✅ Create Django project config
+
+✅ Configure PostgreSQL and environment variables
+
+✅ Configure static/media file settings
+
+✅ Set up CORS
+
+🔹 STEP 2: Accounts App + Authentication
+✅ Create accounts app
+
+✅ Create custom user model using UUID and email-based login
+
+✅ Configure AUTH_USER_MODEL in settings
+
+✅ Create User serializer
+
+✅ Create Register API view
+
+✅ Create Login & JWT Token endpoints (using SimpleJWT)
+
+✅ Create Token Refresh endpoint
+
+✅ Test the authentication flow
+
+🔹 STEP 3: Folder Management
+✅ Create folders app
+
+✅ Create Folder model (UUID, user, name)
+
+✅ Folder serializer
+
+✅ Folder API view (GET for current user’s folders)
+
+✅ Connect folders to the user
+
+✅ Apply permissions and test
+
+🔹 STEP 4: Documents App
+✅ Create documents app
+
+✅ Create Document model (UUID, user, title, description, folder, custom_fields, tags, timestamps)
+
+✅ Create DocumentFile model (UUID, document FK, file, label, uploaded_at)
+
+✅ Create Reminder model (UUID, document FK, reminder_date, note, is_sent)
+
+🔹 STEP 5: Documents API
+✅ Create serializers for all three models
+
+✅ Create views for:
+
+List/Create documents
+
+Retrieve/Update/Delete document
+
+Upload document files
+
+Set/get reminders
+
+✅ Implement filtering (by folder and tags)
+
+✅ Add permissions
+
+🔹 STEP 6: Project Finalization & Best Practices
+✅ Organize project modularly
+
+✅ Split settings using .env file
+
+✅ Setup media and file uploads properly
+
+✅ Cleanup and structure serializers, views, urls
+
+✅ Enable admin for testing
+
+✅ Final test using Postman / frontend
+
+🧪 [Optional Later] Testing & Admin
+Setup Django admin for debugging
+
+Write tests for models and APIs (if needed)
