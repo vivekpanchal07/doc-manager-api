@@ -31,8 +31,6 @@ instance/
 # Django migrations (optional — include if you don’t want to commit initial migrations)
 **/migrations/*.pyc
 **/migrations/__pycache__/
-**/migrations/*.py
-!**/migrations/__init__.py  # Keep the __init__.py
 
 # VSCode (optional)
 .vscode/
